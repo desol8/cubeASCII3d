@@ -45,7 +45,6 @@ int main() {
     const float fov = 40;
     const float viewer_distance = 4;
 
-    // Уменьшенный куб (вершины на +/-0.6)
     std::vector<Point3D> vertices = {
         {-0.6f, -0.6f, -0.6f}, {0.6f, -0.6f, -0.6f},
         {0.6f, 0.6f, -0.6f}, {-0.6f, 0.6f, -0.6f},
